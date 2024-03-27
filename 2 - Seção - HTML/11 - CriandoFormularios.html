@@ -10,10 +10,38 @@
 	<h1>Formularios</h1>
 	<form>
 		<label for="pnome">Primeiro Nome</label>
-		<input type="text" name="" placeholder="Seu Primeiro nome">
+		<input type="text" name="" placeholder="Seu Primeiro nome" required> <br><br> <!-- Required torna tag obrigatoria para ser preenchida -->
 
 		<label for="unome">Ultimo Nome</label>
-		<input type="text" id="unome" placeholder="Ultimo nome">
+		<input type="text" id="unome" placeholder="Ultimo nome" required> <br><br> <!-- Required torna tag obrigatoria para ser preenchida, caso aperte o botão será impredido de seguir adiante -->
+
+		<label><strong> Qual o seu nível de programação atualmente </strong></label>
+		<label>
+			<input type="radio" name="nivel" value="iniciante" checked>Sou iniciante <!-- A bolinha de selecionar começa aqui -->
+		</label>
+		<label>
+			<input type="radio" name="nivel" value="medio">Comecei a pouco tempo
+		</label>
+		<label>
+			<input type="radio" name="nivel" value="alto">Já tenho experiencia de trabalho
+		</label>
+		<br><br>
+
+		<!-- aula 12. Segunda aula de formularios   -->
+
+		<label>
+			<strong>Sua escolaridade</strong>
+		</label>
+		<select id="escolaridade">
+			<option selected disabled value="">Selecione</option> <!-- O termo de disable está desativado a opção, e o valor dessa opção é nula. Está apenas presente nesse select com o intuito de mostrar o texto no incio -->
+			<option>Educação basica</option>
+			<option>Ensino médio</option>
+			<option>Ensino superior</option>
+		</select>
+		<br><br>
+
+		<!-- Terceira aula, Checkbox 13 -->
+
 
 		<input type="submit" name="Cadastrar">
 	</form>
