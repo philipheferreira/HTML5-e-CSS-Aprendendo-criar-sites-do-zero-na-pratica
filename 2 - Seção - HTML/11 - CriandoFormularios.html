@@ -9,11 +9,13 @@
 
 	<h1>Formularios</h1>
 	<form>
-		<label for="pnome">Primeiro Nome</label>
-		<input type="text" name="" placeholder="Seu Primeiro nome" required> <br><br> <!-- Required torna tag obrigatoria para ser preenchida -->
+		<label for="pnome">Primeiro Nome</label> <!-- O for serve pra identificar referente a qual input está relacionado o label -->
+		<input type="text" name="pnome" placeholder="Seu Primeiro nome" required> <br><br> <!-- Required torna tag obrigatoria para ser preenchida -->
 
 		<label for="unome">Ultimo Nome</label>
 		<input type="text" id="unome" placeholder="Ultimo nome" required> <br><br> <!-- Required torna tag obrigatoria para ser preenchida, caso aperte o botão será impredido de seguir adiante -->
+
+		<!-- aula 12. Segunda aula de formularios   -->
 
 		<label><strong> Qual o seu nível de programação atualmente </strong></label>
 		<label>
@@ -27,12 +29,10 @@
 		</label>
 		<br><br>
 
-		<!-- aula 12. Segunda aula de formularios   -->
-
-		<label>
+		<label for="escolaridade">
 			<strong>Sua escolaridade</strong>
 		</label>
-		<select id="escolaridade">
+		<select id="escolaridade" required>
 			<option selected disabled value="">Selecione</option> <!-- O termo de disable está desativado a opção, e o valor dessa opção é nula. Está apenas presente nesse select com o intuito de mostrar o texto no incio -->
 			<option>Educação basica</option>
 			<option>Ensino médio</option>
@@ -40,10 +40,29 @@
 		</select>
 		<br><br>
 
-		<!-- Terceira aula, Checkbox 13 -->
+				<!-- Terceira aula, Checkbox 13 -->
 
+		<label>
+			<strong>Selecione as tecnologias que você conhece:</strong>
+		</label>
+
+		<br>
+
+		<input type="checkbox" name="tecnologia1" value="html"> <!-- Toda vez que se cria uma variavel name se cria uma forma de identificar um elemento dentro do html -->
+		<label for="tecnologia1"> HTML</label>
+
+		<input type="checkbox" name="tecnologia2" value="css">
+		<label for="tecnologia2"> CSS</label>
+
+		<input type="checkbox" name="tecnologia3" value="javascript">
+		<label for="tecnologia3"> Javascript</label>
+
+		<input type="checkbox" name="tecnologia4" value="php">
+		<label for="tecnologia4"> PHP</label>
+		<br><br>
 
 		<input type="submit" name="Cadastrar">
+
 	</form>
 
 </body>
