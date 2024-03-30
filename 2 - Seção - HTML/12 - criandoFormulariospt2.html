@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+
+		<label><strong> Qual o seu nível de programação atualmente </strong></label>
+		<label>
+			<input type="radio" name="nivel" value="iniciante" checked>Sou iniciante <!-- A bolinha de selecionar começa aqui -->
+		</label>
+		<label>
+			<input type="radio" name="nivel" value="medio">Comecei a pouco tempo
+		</label>
+		<label>
+			<input type="radio" name="nivel" value="alto">Já tenho experiencia de trabalho
+		</label>
+		<br><br>
+
+		<label for="escolaridade">
+			<strong>Sua escolaridade</strong>
+		</label>
+		<select id="escolaridade" required>
+			<option selected disabled value="">Selecione</option> <!-- O termo de disable está desativado a opção, e o valor dessa opção é nula. Está apenas presente nesse select com o intuito de mostrar o texto no incio -->
+			<option>Educação basica</option>
+			<option>Ensino médio</option>
+			<option>Ensino superior</option>
+		</select>
+		<br><br>
+		
+		<input type="submit" name="Cadastrar">
+
+	</form>
+
+</body>
+</html>
