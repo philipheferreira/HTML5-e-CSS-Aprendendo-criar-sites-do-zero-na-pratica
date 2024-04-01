@@ -1,0 +1,12 @@
+.teste{ /* foi criada uma classe teste, agora todo tag que tiver classe teste referenciado será azul */
+	color: blue;
+}
+
+#testando{ /* Foi criado */
+	color: red;
+}
+
+p.teste{ /* apenas a tag p que tiver referenciado a classe teste será verde */
+	color: green;
+}
+
