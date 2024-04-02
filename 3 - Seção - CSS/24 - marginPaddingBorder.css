@@ -1,0 +1,30 @@
+.teste1{
+	margin: 50px;
+
+}
+
+.teste2{
+	margin: auto;
+	background: #121212;
+	color: #ffff;
+
+	padding-top: 70px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	border: 5px solid blue;
+	border-radius: 10px;
+}
+
+.teste3{
+	margin-top: 70px ;
+	margin-left: 50px ;
+	margin-right: 50px ;
+	margin-bottom: 20px ;
+	background: #121212;
+	color: #FFFF;
+
+	padding: 50px;
+
+	border: 10px solid red;
+}

@@ -1,5 +1,6 @@
 	.teste1{
 		color: blue;
+		font-family: Arial, Helvetica, sans-serif; /* Caso não tenha as primeiras fontes colocar mais de uma auxiliar sempre procurar as proximas */
 	}
 
 	.teste2{
@@ -10,4 +11,10 @@
 	}
 	.teste4{
 		color: rgba(0, 0, 255, 0.5);
+	}
+
+	.teste5{
+		font-family: "Roboto", sans-serif;
+  		font-weight: 100;
+  		font-style: normal;
 	}
