@@ -1,21 +1,27 @@
+
+body{
+	font-family: 'roboto', sans-serif;
+	height: 180vh; /* defini a altura geral do body na pagina */
+}
+
+
 .container{
 	background-color: #121212;
 	color: #FFFFFF;
 	margin: auto;
 	width: 700px;
 	padding: 30px;
+	border: 5px solid red; /* cria uma borda preenchendo 3 campos. tamanho, tipo e cor */
 	border-radius: 20px;
-
+}
+.area{ 
+	position: relative; /* Ativando a funcionalidade de relatividade */
+	top: 150px; /* Permite utilizar as funcionalidades para alterar a distancia com relação a altura */
+	left: 90px; /* Permite utilizar as funcionalidades para alterar a distancia com relação a esquerda */
 }
 
-.rede-social{ 
-	text-align: center;
- }
 
- .rede-social ul li a {
- 	color: #121212;
- }
-
- .rede-social ul li a:hover {
- 	color: red;
- }
+/* 
+1. por padrão temos o static ou seja estatico. Ele fica no lugar que está
+2. relative: O elemento é posicionado em relação a sua posição normal, mas compensação ele tem umas posições a mais que a gente pode manipular
+*/

@@ -1,0 +1,35 @@
+body{
+	font-family: 'roboto', sans-serif; /* Define as fonts utilizadas no body nos textos*/
+}
+
+.container{ 
+	background: #121212;
+	color: #FFFFFF;
+	margin: auto;
+	width: 700px;
+	padding: 40px;
+	border-radius: 60px;
+	border: 5px solid red;
+}
+
+
+/* 
+1. por padrão temos o static ou seja estatico. Ele fica no lugar que está
+2. relative: O elemento é posicionado em relação a sua posição normal, mas compensação ele tem umas posições a mais que a gente pode manipular
+3. absolute: É posicionado em relação ao seu elemento pai mais proximo que possui relative se não tiver relative é posicionado em relação ao body
+*/
+
+.area {
+	position: relative; /* Caso se essa div não fosse relative ele usaria as dimensões do site e não da div pai */
+	width: 600px;
+	height: 800px;
+	border: 5px solid green;
+}
+
+.area-absolute{
+	position: absolute; /* Como eu to definindo como absolute todas as variaveis que utilizarei como base levarão em consideração as dimensões do relative */
+	border: 5px solid blue;
+	top: 0; /* Como os as dimensões do relative que são levadas em consideração ele sobreescreve as palavras da area */
+	right: 0;
+
+}
