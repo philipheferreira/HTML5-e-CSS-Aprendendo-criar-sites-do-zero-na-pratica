@@ -1,0 +1,41 @@
+
+*{
+
+}
+
+body{
+	font-family: ;
+}
+
+.container{
+	background-color: #121212; /* gera uma cor preta para o fundo da div que foi importada essa classe */
+	width: 700px; /* Gera um tamanho limite de largura. Como margin foi definido como auto se não tivesse um limite de largura ela iria preencher todas as laterais */
+	color: #FFFFFF; /* Tudo dentro da div será branco, no caso os textos */
+	margin: auto; /* Gera uma margin automatica que acabou centralizando ela. se não tivesse um limite de width ela iria preencher todo o site */
+	padding: 50px; /* Gera um espaço interno de 50px na box model */
+	border: 5px solid red; /* gera uma borda no fundo preto */
+	border-radius: 60px; /* Gera uma borda automatica na border gerada */
+}
+
+.rede-social h2{
+	text-align: center; /* Centralizar o titulo da aplicação */
+}
+
+.rede-social ul{
+	padding: 0px; /* Deletar os espaços gerados pelas bolinahs nas listas */
+	list-style: none; /* PARA ELIMINAR AS BOLINHAS GERADAS */
+	text-align: center; /* Centralizar as tagas de lista */
+}
+
+.rede-social li{
+	margin-bottom: 12px; /* criar uma distancia fora do espaço interno da classe, na parte de baixo */
+}
+
+.rede-social a{
+	text-decoration: none; /* sem nada que seja pre definido, retira a linha de baixo das letras que é pré-definida*/
+	color: #000000; /* Cor preta */
+}
+
+.rede-social a:hover{ /* hover significa sobre algo, toda vez que o mouse ficar sobre essa classe algo ira acontecer */
+	color: #FF0000; /* toda vez que o mouse ficar sobre as letras as letras ficaram vermelhas */
+}

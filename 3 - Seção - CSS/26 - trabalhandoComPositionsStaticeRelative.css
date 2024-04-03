@@ -1,0 +1,21 @@
+.container{
+	background-color: #121212;
+	color: #FFFFFF;
+	margin: auto;
+	width: 700px;
+	padding: 30px;
+	border-radius: 20px;
+
+}
+
+.rede-social{ 
+	text-align: center;
+ }
+
+ .rede-social ul li a {
+ 	color: #121212;
+ }
+
+ .rede-social ul li a:hover {
+ 	color: red;
+ }
