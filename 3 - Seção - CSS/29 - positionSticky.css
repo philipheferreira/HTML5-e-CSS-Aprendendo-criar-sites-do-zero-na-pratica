@@ -1,0 +1,29 @@
+
+/* 
+5. Sticky é posicionado em relação a posição do scroll
+*/
+
+body{
+	height: 180vh;
+}
+
+
+header{
+	background-color: cyan;
+	width: 100%;
+
+	position: sticky;
+	top: 0;
+
+}
+
+.container{
+	background-color: black;
+	color: white;
+	padding: 40px;
+	width: 700px;
+	margin: auto;
+	border: 2px solid red;
+	border-radius: 60px;
+	margin-top: 20px;
+}

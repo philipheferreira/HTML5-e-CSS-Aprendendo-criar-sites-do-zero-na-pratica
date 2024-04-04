@@ -1,0 +1,32 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	height: 180vh;
+}
+
+.container{
+	background-color: #121212;
+	height: 500px;
+	color: #FFFFFF;
+	margin: 50px;
+
+	/* Ativando flexbox por container */
+	display: flex; /* Ativando o uso do flexbox nessa classe, por padrão o flexbox atua em organização de linha */
+	flex-direction: column; /* Define uma direção para os itens na flexbox, no caso a direção de coluna */
+}
+
+.area{  /* como area é uma classe criada para as duas divis elas irão dividir as caracteristicas aqui definidas */
+	width: 100px;
+	height: 100px;
+}
+
+.item-1{
+	background-color: red;
+}
+
+.item-2{
+	background-color: blue;
+}
+
+.item-3{ 
+	background-color: darkgreen;
+}
