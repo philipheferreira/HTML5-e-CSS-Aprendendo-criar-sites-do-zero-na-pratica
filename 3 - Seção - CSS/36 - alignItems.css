@@ -1,0 +1,32 @@
+body{
+	height: 180vh;
+}
+
+.container{
+	background-color: #121212;
+	color: #FFFFFF;
+
+	height: 400px;
+	margin: 50px;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.area{
+	height: 100px;
+	width: 100px;
+
+}
+
+.item-1{
+	background-color: red;
+}
+
+.item-2{
+	background-color: greenyellow;
+}
+
+.item-3{
+	background-color: darkorange;
+}
