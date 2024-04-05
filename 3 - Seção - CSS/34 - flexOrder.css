@@ -1,0 +1,35 @@
+
+body{
+	height: 180vh;
+}
+
+.container{
+	color: #FFFFFF;
+	background-color: #121212;
+
+	height: 400px;
+	margin: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+.area{
+	height: 100px;
+	width: 100px;
+
+}
+
+.item-1{
+	background-color: red;
+	order: 2; /* O order só funciona para filhos de uma classe flex, define a organização da ordem em uma linha ou coluna. Ele vai aparecer na posição 2 */
+}
+
+.item-2{
+	background-color: green;
+	order: 1; /* O order só funciona para filhos de uma classe flex, define a organização da ordem em uma linha ou coluna. Ele vai aparecer na posição 1 */
+}
+
+.item-3{
+	background-color: yellow;
+	order: 3; /* O order só funciona para filhos de uma classe flex, define a organização da ordem em uma linha ou coluna. Ele vai aparecer na posição 3 */
+}

@@ -1,0 +1,36 @@
+
+body{
+	height: 180vh;
+}
+
+.container{
+	color: #FFFFFF;
+	background-color: #121212;
+	margin: 50px;
+	height: 400px;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.area{
+	width: 100px;
+	height: 100px;
+
+	flex-basis: 300px; /* Limita a area maxima para se utilizar mas caso o espaço seja menor eles vão se adaptando para serem utilizados */
+}
+
+.item-1{
+	background-color: grey;
+	flex-shrink: 1; /* Quando o tamanho for menox que o tamanho determinado em flex-basis, o item será 1 vez menor que o resto */
+}
+
+.item-2{
+	background-color: red;
+	flex-shrink: 2; /* Quando o tamanho for menox que o tamanho determinado em flex-basis, o item será 2 vez menor que o resto */
+}
+
+.item-3{
+	background-color: blue;
+	flex-shrink: 1; /* Quando o tamanho for menox que o tamanho determinado em flex-basis, o item será 1 vez menor que o resto */
+}

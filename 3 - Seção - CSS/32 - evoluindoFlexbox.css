@@ -1,0 +1,37 @@
+body{
+	height: 180vh;
+}
+
+
+.container{
+	background-color: #121212;
+	color: #FFFFFF;
+
+	height: 500px;
+	margin: 50px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+
+.area{
+	height: 100px;
+	width: 100px;
+}
+
+.item-1{
+background-color: red;
+flex: 1; /* O comando solicita que seja preenchido todo o tamanho da tela e os demais mantem o mesmo tamanho */
+}
+
+
+.item-2{
+background-color: yellow;
+flex: 2; /* O item tem 2 vezes o tamanho de um flex normal */
+}
+
+.item-3{
+background-color: green;
+flex: 3;
+}
