@@ -11,6 +11,8 @@ body{
 
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 
@@ -21,6 +23,7 @@ body{
 
 .item-1{
 	background-color: darkgoldenrod;
+	align-self: flex-start; /* permite fazer a alteração especifica de um item para ter um comportamento individual quando comparado com os outros */
 }
 
 .item-2{
@@ -29,4 +32,5 @@ body{
 
 .item-3{
 	background-color: orange;
+	align-self: flex-end;
 }

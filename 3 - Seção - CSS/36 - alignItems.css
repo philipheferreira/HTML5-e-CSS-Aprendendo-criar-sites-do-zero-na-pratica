@@ -11,6 +11,7 @@ body{
 
 	display: flex;
 	flex-direction: row;
+	align-items: flex-end; /* Quando o flex direction tem como base o row o align-items consegue definir o alinhamento da vertical (cima para baixo) de um item*/
 }
 
 .area{

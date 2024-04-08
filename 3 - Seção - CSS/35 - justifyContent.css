@@ -11,6 +11,13 @@ body{
 	margin: 50px;
 	display: flex;
 	flex-direction: row;
+	/*justify-content: flex-start; é a configuração padrão. Coloca todos os itens juntos no inicio*/
+	/*justify-content: flex-end; coloca todos os itens juntos no final*/
+	/*justify-content: center; centralizad todos os itens juntinhos*/
+	/*justify-content: space-between; gera um espaço igual entre os itens*/
+	justify-content: space-around; /*um espaço entre os itens e as bordas*/
+	
+
 }
 
 .area{
