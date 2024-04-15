@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: "Roboto", sans-serif;
+
+}
+
+/* Inicio header */
+
+.nav{
+	background-color: #181818;
+	height: 80px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end; /* realiza uma alteração com base na horizontal e joga pra direita */
+	position: sticky; /* Ele acompanha o movimento do scrool normalmente */
+	top: 0;
+	z-index: 9; /* O z-index define um nivel de importancia. Ele fica com 9 de importancia. Ele fica sobre as coisas. os objetos são definido com um z-index 1 */
+}
+.nav-list{
+	display: flex;
+	align-items: center; /* centraliza com base na vertical */
+	list-style: none;
+}
+
+.nav-list a{
+	text-decoration: none;
+	color: #DDD;
+	padding: 20px;
+}
+
+.nav-list a:hover{
+	color: #FFFFFF;
+}
+/* FIM HEADER */
+
+/* INICIO MAIN */
+
+	.main{
+		width: 100%;
+		background-color: #000;
+		height: calc(100vh - 80px); /* Eu posso realizar calculos para simplificar paginas */
+		background-image: url("images/programador.png");
+		display: flex;
+		align-items: center;
+		padding-left: 10%;
+	}
+
+	.main h2{ 
+		color: #FFFFFF;
+		font-size: 54px;
+	}
+
+	.main p{
+		font-size: 24px;
+		font-style: italic;
+		color: #1e96FC;
+		margin-top: 10px;
+		margin-bottom: 35px;
+	}
+	.callToAction{
+		cursor: pointer; /* Toda vez que passar por cima do botão vai aparecer uma mãozinha no botão */
+		background-color: #FFFFFF;
+		border: 0; /* pra ele não ter borda */
+		padding: 14px; /* espaçamento interno */
+		border-radius: 4px;
+		font-size: 18px;
+		font-weight: bold;
+		transition: 0.9s; /* controla o tempo de transição de uma ação para outra */
+	}
+
+	.callToAction:hover{
+		transform: scale(1.1); /* aumenta o tamanho em uma escala de 110% */
+	}
+	.main a{
+		text-decoration: none;
+		color: #181818;
+	}
+/* FIM MAIN */
+
+/* INICIO DA AREA SOBRE */
+	.sessao{
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+		align-items: center;
+		background-color: #FFFFFF;
+		padding-left: 5%; /* Se fosse margin não iria funcionar pelo fato de ter definido width como 100%*/
+		padding-right: 5%; /* Se fosse margin não iria funcionar pelo fato de ter definido width como 100%*/
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.sessaoTexto{
+		width: 40%;
+
+	}
+	.imagemProgramando{
+		height: 20%;
+		width: 40%;
+		border-radius: 10px;
+	}
+
+	.meusProjetos{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.meusProjetos h2{
+		font-size: 32px;
+		margin-top: 8px;
+		margin-bottom: 20px;
+	}
+
+	.meusProjetos p{
+		margin-bottom: 40px;
+		font-style: italic;
+	}
+
+	.imagemP{
+		height: 22%;
+		width: 22%;
+		margin: 5px;
+		border-radius: 10px;
+		transition: 0.8s;
+		opacity: 0.8;
+	}
+	.imagemP:hover{ 
+		opacity: 1.0;
+	 }
+
+	.imagensProjetos{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.botarOrcamento{ 
+		border-radius: 8px;
+		background-color: #131313;
+		color: #FFFFFF;
+		padding: 5px 15px;
+		margin: 10px;
+
+	}
+
+/* FIM DA AREA SOBRE */
