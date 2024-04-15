@@ -80,3 +80,28 @@ body{
 		color: #181818;
 	}
 /* FIM MAIN */
+
+/* INICIO DA AREA SOBRE */
+	.sessao{
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+		align-items: center;
+		background-color: #FFFFFF;
+		padding-left: 5%; /* Se fosse margin não iria funcionar pelo fato de ter definido width como 100%*/
+		padding-right: 5%; /* Se fosse margin não iria funcionar pelo fato de ter definido width como 100%*/
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.sessaoTexto{
+		width: 40%;
+
+	}
+	.imagemProgramando{
+		height: 20%;
+		width: 40%;
+		border-radius: 10px;
+	}
+
+/* FIM DA AREA SOBRE */
