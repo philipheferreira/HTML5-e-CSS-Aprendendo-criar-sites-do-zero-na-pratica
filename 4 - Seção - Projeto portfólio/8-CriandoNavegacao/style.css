@@ -11,6 +11,10 @@ body{
 
 }
 
+html{
+	scroll-behavior: smooth; /* faz a passagem do projeto para uma parte especifica do site de uma forma mais suave */
+}
+
 /* Inicio header */
 
 .nav{
@@ -150,7 +154,7 @@ body{
 		color: #FFFFFF;
 		padding: 12px 28px;
 		margin-top: 18px;
-		margin-bottom: 30px;
+		margin-bottom: 20px;
 		cursor: pointer;
 
 	}
