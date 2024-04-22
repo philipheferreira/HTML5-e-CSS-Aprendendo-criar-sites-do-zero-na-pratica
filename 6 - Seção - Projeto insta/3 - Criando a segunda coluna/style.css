@@ -19,3 +19,33 @@ body{
 	font-size: 14px;
 	line-height: 18px;
 }
+
+.wrapper{
+	height: 100vh;
+}
+
+.container{
+	margin: 0 auto;
+	min-height: 100%;
+	width: 800px; /* Foi definido uma largura de 800 de espaço */
+	display: flex; /* definido tudo como linha de forma automatica */
+	align-items: center; /* centraliza tudo */
+}
+
+.column{
+	flex-grow: 1; /* disputa o mesmo espaço em uma largura de 800px */
+	width: 50%;
+}
+
+.left{
+	background-image: url("assets/main-foto.png");
+	background-size: 450px;
+	background-repeat: no-repeat; /* impede que seja gerado a repetição da imagem caso sobre espçao */
+	background-position: center;
+	height: 600px;
+	margin-bottom: 50px;
+}
+
+.right{
+	padding-left: 20px;
+}
