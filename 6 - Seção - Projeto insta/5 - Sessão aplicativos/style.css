@@ -121,3 +121,39 @@ input[type="submit"]{
 	font-weight: bold;
 	user-select: none; /* Usando isso não consigo mais selecionar o texto */
 }
+
+.get-app-panel{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.app-botao{
+	margin-top: 15px;
+}
+
+.app-botao img{
+	height: 40px;
+	padding: 0 2px;
+}
+
+footer{
+	text-align: center;
+	height: 50px;
+	margin-top: -50px;
+}
+
+footer a{
+	color: #000;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 8px;
+}
+
+.text-small{
+	font-size: 12px;
+	font-weight: bold;
+	color: grey;
+	text-transform: uppercase;
+	padding-left: 20px;
+	display: inline-block;
+}
