@@ -1,0 +1,30 @@
+/* CSS da pagina signup */
+
+#container-signup{
+	margin: 0 auto;
+	min-height: 100%;
+	max-width: 400px;
+	display: flex;
+	align-content: center;
+}
+
+.message{
+	margin: 10px 70px;
+}
+
+.message span{
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #8e8e8e;
+}
+
+.cta-button{
+	width: 320px;
+	margin: 10px 0;
+	height: 35px;
+	background-color: #0095f6;
+	color: #FFFFFF;
+	border: 0;
+}
