@@ -32,23 +32,6 @@ body{
 	align-items: center; /* centraliza tudo */
 }
 
-.column{
-	flex-grow: 1; /* disputa o mesmo espaço em uma largura de 800px */
-	width: 50%;
-}
-
-.left{
-	background-image: url("assets/main-foto.png");
-	background-size: 450px;
-	background-repeat: no-repeat; /* impede que seja gerado a repetição da imagem caso sobre espçao */
-	background-position: center;
-	height: 600px;
-	margin-bottom: 50px;
-}
-
-.right{
-	padding-left: 20px;
-}
 
 .login-panel{
 	text-align: center;
@@ -156,4 +139,98 @@ footer a{
 	text-transform: uppercase;
 	padding-left: 20px;
 	display: inline-block;
+}
+
+/* CSS da pagina signup */
+
+#container-signup{
+	margin: 0 auto;
+	min-height: 100%;
+	max-width: 400px;
+	display: flex;
+	align-content: center;
+}
+
+.message{
+	margin: 10px 70px;
+}
+
+.message span{
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #8e8e8e;
+}
+
+.cta-button{
+	width: 320px;
+	margin: 10px 0;
+	height: 35px;
+	background-color: #0095f6;
+	color: #FFFFFF;
+	border: 0;
+	border-radius: 4px;
+	font-size: 15px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.divisor-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.line{ /* Cria uma linha proxima */
+	height: 1px;
+	background-color: #e6e6e6;
+	width: 35%;
+}
+
+.divisor-tag{
+	font-weight: bold;
+	margin: 0 2.5%;
+	color: #8e8e8e;
+	user-select: none;/* Não aparece a linha de edição que geralmente ocorre */
+}
+
+/* Responsividade */
+
+@media (){
+	.left{
+		display: none;
+	}
+
+	.container{
+		width: 70%;
+	}
+
+	.right{
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 560px) {
+	.container{
+		width: 90%;
+	}
+
+	.container-signup{
+		width: 90%;
+	}
+
+	input[type="password"], input[type="text"], input[type="submit"]{
+		width: 80%;
+	}
+
+	.cta-button{
+		width: 85%;
+	}
+
+	.message{
+		margin: 10px 25px;
+	}
+
 }
